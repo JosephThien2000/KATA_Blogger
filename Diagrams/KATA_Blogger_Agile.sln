@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "source_code", "source_code", "{FA155DCD-2D50-42D8-A071-89734FBF47A9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "kata_blogger", "source_code\kata_blogger\kata_blogger.csproj", "{95EE9A12-C6F2-43A6-AA6E-64CA48B5ACA8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95EE9A12-C6F2-43A6-AA6E-64CA48B5ACA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95EE9A12-C6F2-43A6-AA6E-64CA48B5ACA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95EE9A12-C6F2-43A6-AA6E-64CA48B5ACA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95EE9A12-C6F2-43A6-AA6E-64CA48B5ACA8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{95EE9A12-C6F2-43A6-AA6E-64CA48B5ACA8} = {FA155DCD-2D50-42D8-A071-89734FBF47A9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {40DD67BC-E14A-4B03-A9A7-2EA06FC051FF}
+	EndGlobalSection
+EndGlobal
