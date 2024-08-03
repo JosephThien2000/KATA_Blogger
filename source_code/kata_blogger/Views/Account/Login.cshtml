@@ -1,5 +1,5 @@
-@using kata_blogger.ViewModels;
-@model LoginVM
+@model LoginViewModel
+@using kata_blogger.ViewModels
 
 @{
     ViewData["Title"] = "Login";
@@ -11,9 +11,9 @@
         <form asp-action="Login" method="Post">
             <div asp-validation-summary="ModelOnly"></div>
             <div class="mb-1">
-                <label asp-for="Username" class="control-label"></label>
-                <input asp-formaction="Username" class="form-control"/>
-                <span asp-validation-for="Username" class="text-danger"></span>
+                <label asp-for="UserNameOrEmail" class="control-label"></label>
+                <input asp-for="UserNameOrEmail" class="form-control"/>
+                <span asp-validation-for="UserNameOrEmail" class="text-danger"></span>
             </div>
 
             <div class="mb-1">
@@ -22,15 +22,9 @@
                 <span asp-validation-for="Password" class="text-danger"></span>
             </div>
 
-            <div class="mb-1 form-check">
-                <label class="form-check-label">
-                    <input asp-for="RememberMe" class="form-check-input"/> @Html.DisplayNameFor(a=>a.RememberMe)
-                </label>
-            </div>
-
             <div class="row">
                 <div class="col-8">
-                    <a asp-action="Register" class="text-decoration-none float-start mt-2">Don't have account?</a>
+                    <a asp-action="Registration" class="text-decoration-none float-start mt-2">Don't have account?</a>
                 </div>
                 <div class="col-4">
                     <input type="submit" value="Login" class="btn btn-primary btn-sm float-end" />

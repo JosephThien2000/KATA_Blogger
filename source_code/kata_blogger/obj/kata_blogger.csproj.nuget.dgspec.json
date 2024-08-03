@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/josephthien/Desktop/KATA_Blogger_Agile/source_code/kata_blogger/kata_blogger.csproj": {}
+    "/Users/josephthien/Desktop/KATA_Blogger/source_code/kata_blogger/kata_blogger.csproj": {}
   },
   "projects": {
-    "/Users/josephthien/Desktop/KATA_Blogger_Agile/source_code/kata_blogger/kata_blogger.csproj": {
+    "/Users/josephthien/Desktop/KATA_Blogger/source_code/kata_blogger/kata_blogger.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/josephthien/Desktop/KATA_Blogger_Agile/source_code/kata_blogger/kata_blogger.csproj",
+        "projectUniqueName": "/Users/josephthien/Desktop/KATA_Blogger/source_code/kata_blogger/kata_blogger.csproj",
         "projectName": "kata_blogger",
-        "projectPath": "/Users/josephthien/Desktop/KATA_Blogger_Agile/source_code/kata_blogger/kata_blogger.csproj",
+        "projectPath": "/Users/josephthien/Desktop/KATA_Blogger/source_code/kata_blogger/kata_blogger.csproj",
         "packagesPath": "/Users/josephthien/.nuget/packages/",
-        "outputPath": "/Users/josephthien/Desktop/KATA_Blogger_Agile/source_code/kata_blogger/obj/",
+        "outputPath": "/Users/josephthien/Desktop/KATA_Blogger/source_code/kata_blogger/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/josephthien/.nuget/NuGet/NuGet.Config"
@@ -43,6 +43,18 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Cookies": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authorization": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.7, )"
@@ -60,6 +72,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.7, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.3, )"
             }
           },
           "imports": [
